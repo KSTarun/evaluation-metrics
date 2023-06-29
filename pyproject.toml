@@ -10,14 +10,13 @@ license = {file = "LICENSE.txt"}
 requires-python = ">=3.8"
 
 dependencies = [
-    "Werkzeug>=2.3.6",
-    "Jinja2>=3.1.2",
-    "itsdangerous>=2.1.2",
-    "click>=8.1.3",
-    "blinker>=1.6.2",
-    "importlib-metadata>=3.6.0; python_version < '3.10'",
+  "pandas",
+  "matplotlib",
+  "scikit-learn",
 ]
 
+[project.urls]
+"Source Code" = "https://github.com/KSTarun/evaluation-metrics/"
 
 [build-system]
 requires = ["poetry-core"]
